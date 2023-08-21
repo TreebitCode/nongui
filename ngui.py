@@ -23,12 +23,12 @@ class Block:
 		self.style = style  # styling
 
 	# move block relative to current position
-	def move(x=1, y=0):
+	def move(self, x=1, y=0):
 		self.x += int(x)
 		self.y += int(y)
 
 	# set block postition to specified coordinates
-	def jump(x=1, y=1):
+	def jump(self, x=1, y=1):
 		if x: self.x = int(x)
 		if y: self.x = int(y)
 

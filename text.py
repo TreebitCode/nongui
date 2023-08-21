@@ -2,7 +2,7 @@ from ngui import *
 
 init()
 title('Text editor')
-field = InputWindow(getwh(), (20, 13), content='Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday')
+field = InputWindow(getwh(), content='Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday')
 field.draw()
 char = field.key()
 while char != 'ESC': char = field.key()
